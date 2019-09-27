@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".MainTestActivity">
+
+            <Button
+                android:id="@+id/btnObserverCreate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Observer Create"/>
+
+            <Button
+                android:id="@+id/btnObserverFromCallable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Observer From Callable"/>
+
+            <Button
+                android:id="@+id/btnObserverFromFuture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Observer From Future"/>
+
+            <Button
+                android:id="@+id/btnObserverFromIterable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Observer From Iterable"/>
+
+            <Button
+                android:id="@+id/btnObserverFromArray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Observer From Array"/>
+
+            <Button
+                android:id="@+id/btnObserverInterval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Observer Interval"/>
+
+            <Button
+                android:id="@+id/btnObserverIntervalSwitchMap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Observer Interval Switch Map"/>
+
+            <Button
+                android:id="@+id/btnObserverRange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Observer Range"/>
+
+            <Button
+                android:id="@+id/btnObserverRepeat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Observer Repeat"/>
+
+            <Button
+                android:id="@+id/btnObserverTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Observer Time"/>
+
+            <Button
+                android:id="@+id/btnObserverFilterDebounce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Observer Filter Debounce"/>
+
+            <EditText
+                android:id="@+id/testTyping"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>
